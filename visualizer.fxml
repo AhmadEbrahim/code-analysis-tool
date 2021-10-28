@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="780.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="AnalyzerPackage.Controller">
+  <Button id="browseButton" fx:id="classDiagramBtn" layoutX="290.0" layoutY="141.0" minHeight="17.9610595703125" mnemonicParsing="false" onAction="#showClassDiagram" prefHeight="45.9610595703125" prefWidth="200.0" text="Show Class Diagram" />
+  <Button id="browseButton" fx:id="sequenceDiagramBtn" layoutX="290.0" layoutY="214.0" minHeight="17.9610595703125" mnemonicParsing="false" onAction="#showSequenceDiagram" prefHeight="45.9610595703125" prefWidth="200.0" text="Show Sequence Diagram" />
+  <Button id="browseButton" fx:id="flowChartBtn" layoutX="290.0" layoutY="281.0" minHeight="17.9610595703125" mnemonicParsing="false" onAction="#showFlowChart" prefHeight="45.9610595703125" prefWidth="200.0" text="Show Flow Chart" />
+</Pane>

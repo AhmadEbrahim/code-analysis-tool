@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="780.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="AnalyzerPackage.Controller">
+  <Button id="browseButton" fx:id="classDiagramBtn" layoutX="78.0" layoutY="183.0" minHeight="17.9610595703125" mnemonicParsing="false" onAction="#showStaticSlicer" prefHeight="45.9610595703125" prefWidth="200.0" text="Show Static Slicer" />
+  <Button id="browseButton" fx:id="flowChartBtn" layoutX="78.0" layoutY="266.0" minHeight="17.9610595703125" mnemonicParsing="false" onAction="#showDynamicSlicer" prefHeight="45.9610595703125" prefWidth="200.0" text="Show Dynamic Slicer" />
+  <TextField fx:id="variableNameTextField" layoutX="78.0" layoutY="34.0" prefWidth="200.0" />
+  <TextField id="variableValueTextField" fx:id="endLineTextField" layoutX="78.0" layoutY="87.0" prefWidth="200.0" />
+  <Label layoutX="14.0" layoutY="14.0" text="Variable Name:" />
+  <Label layoutX="14.0" layoutY="62.0" text="End Line:" />
+  <TextArea fx:id="slicerTextArea" layoutX="290.0" layoutY="14.0" prefHeight="504.0" prefWidth="476.0" wrapText="true" />
+  <TextField fx:id="variableValueTextField" layoutX="78.0" layoutY="152.0" prefWidth="200.0" />
+  <Label layoutX="14.0" layoutY="127.0" text="Value (dynamic slicer only):" />
+</Pane>
